@@ -18,7 +18,7 @@ public class DivideBySix {
 
     public static void main(String[] args) {
         int number = 9;
-        System.out.println(checkNumber(number));  // Пример: число делится на 6
+        System.out.println(checkNumber(number));
     }
 }
 
