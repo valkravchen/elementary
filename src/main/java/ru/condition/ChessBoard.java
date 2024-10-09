@@ -2,15 +2,12 @@ package ru.condition;
 
 public class ChessBoard {
     public static int way(int x1, int y1, int x2, int y2) {
-        int rsl = 0;
-        if (isValid(x1) && isValid(x2)
-                && isValid(y1) && isValid(y2)) {
-            if (x1 == x2 || y1 == y2) {
-                rsl = Math.abs(x2 - x1);
-                rsl = rsl == 0 ? Math.abs(y2 - y1) : rsl;
+        if (isValid(x1) && isValid(x2) && isValid(y1) && isValid(y2)) {
+            if (Math.abs(x2 - x1) == Math.abs(y2 - y1)) {
+                return Math.abs(x2 - x1);
             }
         }
-        return rsl;
+        return 0;
     }
 
     private static boolean isValid(int coordinate) {
@@ -18,6 +15,7 @@ public class ChessBoard {
     }
 
     public static void main(String[] args) {
-        System.out.println(way(1, 2, 3, 2));
+        int result = way(1, 1, 5, 5);
+        System.out.println("Количество шагов для хода слона: " + result);
     }
 }
