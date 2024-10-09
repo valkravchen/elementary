@@ -18,7 +18,7 @@ class DivideBySixTest {
     void whenNumberDivideBy3AndNotEven() {
         int in = 9;
         String result = DivideBySix.checkNumber(in);
-        String expected = "The number divides by 3, but it isn't the even number.";
+        String expected = "The number divides by 3, but it isn't an even number.";
         assertThat(result).isEqualTo(expected);
     }
 
