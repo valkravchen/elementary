@@ -2,13 +2,9 @@ package ru.loop;
 
 public class LoopFor {
     public static void main(String[] args) {
-        int i;
-        boolean result;
-        for (i = 0; result = i <= 5; i++) {
-            System.out.println(i);
+        for (int index = 5; index <= 10; index++) {
+            System.out.println(index);
         }
-        System.out.println("Индекс после цикла равен: " + i);
-        System.out.println("Условие выполнения цикла равно: " + result);
     }
 }
 
