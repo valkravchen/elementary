@@ -5,7 +5,7 @@ public class Income {
         int income = 0;
         while (income < 100) {
             System.out.println(income);
-            income += 10;
+            income += 3;
         }
     }
 }
