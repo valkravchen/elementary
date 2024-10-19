@@ -7,6 +7,9 @@ public class CheckPrimeNumber {
             if (number % index == 0) {
                 result++;
             }
+            if (result > 2) {
+                break;
+            }
         }
         return result == 2;
     }
