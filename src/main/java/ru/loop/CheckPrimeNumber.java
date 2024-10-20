@@ -2,15 +2,15 @@ package ru.loop;
 
 public class CheckPrimeNumber {
     public static boolean check(int number) {
-        if (number < 2) {
-            return false;
-        }
+        boolean isPrime = number >= 2;
         for (int index = 2; index <= number / 2; index++) {
             if (number % index == 0) {
-                return false;
+                isPrime = false;
+                break;
             }
         }
-        return true;
+        return isPrime;
     }
 }
+
 
