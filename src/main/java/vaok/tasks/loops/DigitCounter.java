@@ -1,16 +1,26 @@
 package vaok.tasks.loops;
 
 public class DigitCounter {
-    public static void countDigits(int number) {
+    public static int countDigits(int number) {
+        number = Math.abs(number);
         int count = 0;
+
+        if (number == 0) {
+            return 1;
+        }
+
         while (number > 0) {
             number /= 10;
             count++;
         }
-        System.out.println(count);
+        return count;
     }
 
     public static void main(String[] args) {
-        countDigits(3333);
+        System.out.println(countDigits(0));
+        System.out.println(countDigits(3333));
+        System.out.println(countDigits(-56789));
     }
 }
+
+
