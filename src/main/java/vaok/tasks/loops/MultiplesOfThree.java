@@ -2,10 +2,8 @@ package vaok.tasks.loops;
 
 public class MultiplesOfThree {
     public static void printMultiplesOfThree(int number) {
-        for (int index = 1; index <= number; index++) {
-            if (index % 3 == 0) {
-                System.out.println(index);
-            }
+        for (int index = 3; index <= number; index += 3) {
+            System.out.println(index);
         }
     }
 
