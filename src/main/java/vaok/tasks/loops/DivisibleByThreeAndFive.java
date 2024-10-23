@@ -2,10 +2,8 @@ package vaok.tasks.loops;
 
 public class DivisibleByThreeAndFive {
     public static void printDivisibleByThreeAndFive(int number) {
-        for (int index = 1; index <= number; index++) {
-            if (index % 3 == 0 && index % 5 == 0) {
-                System.out.println(index);
-            }
+        for (int index = 15; index <= number; index += 15) {
+            System.out.println(index);
         }
     }
 
