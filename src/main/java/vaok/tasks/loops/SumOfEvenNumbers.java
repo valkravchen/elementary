@@ -1,15 +1,15 @@
 package vaok.tasks.loops;
 
 public class SumOfEvenNumbers {
-    public static void calculateSumOfEvenNumbers(int number) {
+    public static int sumEvenNumbers(int number) {
         int sum = 0;
-        for (int index = 2; index <= number; index += 2) {
-            sum += index;
+        for (int i = 2; i <= number; i += 2) {
+            sum += i;
         }
-        System.out.println(sum);
+        return sum;
     }
 
     public static void main(String[] args) {
-        calculateSumOfEvenNumbers(6);
+        System.out.println(sumEvenNumbers(6));
     }
 }
