@@ -8,8 +8,8 @@ public class ArrayDefinition {
         names[2] = "Портос";
         names[3] = "Арамис";
 
-        for (int index = 0; index < names.length; index++) {
-            System.out.println(names[index]);
+        for (int i = 0; i < names.length; i++) {
+            System.out.println("Индекс " + i + ": " + names[i]);
         }
     }
 }
