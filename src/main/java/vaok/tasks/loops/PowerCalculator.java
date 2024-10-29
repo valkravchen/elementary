@@ -3,7 +3,7 @@ package vaok.tasks.loops;
 public class PowerCalculator {
     public static int calculatePower(int base, int exponent) {
         if (base == 0 && exponent == 0) {
-            return 1; // 0^0 = 1 по соглашению
+            return 1;
         } else if (base == 0) {
             return 0;
         }
