@@ -2,7 +2,7 @@ package vaok.tasks.loops;
 
 public class MaxDigitFinder {
     public static int findMaxDigit(int number) {
-        number = Math.abs(number); // Учитываем только положительные цифры
+        number = Math.abs(number);
         int maxDigit = 0;
         while (number > 0) {
             int digit = number % 10;
@@ -15,6 +15,6 @@ public class MaxDigitFinder {
     }
 
     public static void main(String[] args) {
-        System.out.println(findMaxDigit(2736)); // Ожидаемый результат: 7
+        System.out.println(findMaxDigit(2736));
     }
 }
