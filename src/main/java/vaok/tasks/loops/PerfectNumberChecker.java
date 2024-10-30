@@ -12,7 +12,7 @@ public class PerfectNumberChecker {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPerfectNumber(6)); // Ожидаемый результат: true
-        System.out.println(isPerfectNumber(10)); // Ожидаемый результат: false
+        System.out.println(isPerfectNumber(6));
+        System.out.println(isPerfectNumber(10));
     }
 }
