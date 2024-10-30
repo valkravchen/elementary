@@ -2,7 +2,7 @@ package vaok.tasks.loops;
 
 public class EvenPositionDigitSum {
     public static int sumEvenPositionDigits(int number) {
-        number = Math.abs(number); // Учитываем только положительные цифры
+        number = Math.abs(number);
         int sum = 0;
         int position = 1;
 
@@ -18,6 +18,6 @@ public class EvenPositionDigitSum {
     }
 
     public static void main(String[] args) {
-        System.out.println(sumEvenPositionDigits(123456)); // Ожидаемый результат: 12
+        System.out.println(sumEvenPositionDigits(123456));
     }
 }
