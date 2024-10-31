@@ -3,16 +3,16 @@ package ru.array;
 public class Square {
     public static int[] calculate(int bound) {
         int[] numbers = new int[bound];
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = i * i;
+        for (int index = 0; index < numbers.length; index++) {
+            numbers[index] = index * index;
         }
         return numbers;
     }
 
     public static void main(String[] args) {
         int[] array = calculate(4);
-        for (int i : array) {
-            System.out.println(i);
+        for (int number : array) {
+            System.out.println(number);
         }
     }
 }
