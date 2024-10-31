@@ -8,11 +8,4 @@ public class Square {
         }
         return numbers;
     }
-
-    public static void main(String[] args) {
-        int[] array = calculate(4);
-        for (int number : array) {
-            System.out.println(number);
-        }
-    }
 }
