@@ -10,8 +10,8 @@ public class OddNumberSumCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateOddSum(10)); // Ожидаемый результат: 25
-        System.out.println(calculateOddSum(15)); // Ожидаемый результат: 64
+        System.out.println(calculateOddSum(10));
+        System.out.println(calculateOddSum(15));
     }
 }
 
