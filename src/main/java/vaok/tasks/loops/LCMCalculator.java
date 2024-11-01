@@ -13,7 +13,7 @@ public class LCMCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(findLCM(4, 6)); // Ожидаемый результат: 12
-        System.out.println(findLCM(5, 7)); // Ожидаемый результат: 35
+        System.out.println(findLCM(4, 6));
+        System.out.println(findLCM(5, 7));
     }
 }
