@@ -15,9 +15,9 @@ public class PalindromeChecker {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome(121));   // Ожидаемый результат: true
-        System.out.println(isPalindrome(12321)); // Ожидаемый результат: true
-        System.out.println(isPalindrome(12345)); // Ожидаемый результат: false
+        System.out.println(isPalindrome(121));
+        System.out.println(isPalindrome(12321));
+        System.out.println(isPalindrome(12345));
     }
 }
 
