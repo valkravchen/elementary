@@ -23,7 +23,7 @@ public class LuckyTicketChecker {
     }
 
     public static void main(String[] args) {
-        System.out.println(isLuckyTicket(123321)); // Ожидаемый результат: true
-        System.out.println(isLuckyTicket(123456)); // Ожидаемый результат: false
+        System.out.println(isLuckyTicket(123321));
+        System.out.println(isLuckyTicket(123456));
     }
 }
