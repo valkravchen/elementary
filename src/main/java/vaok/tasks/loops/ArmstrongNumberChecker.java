@@ -19,7 +19,7 @@ public class ArmstrongNumberChecker {
     }
 
     public static void main(String[] args) {
-        System.out.println(isArmstrongNumber(153)); // Ожидаемый результат: true
-        System.out.println(isArmstrongNumber(123)); // Ожидаемый результат: false
+        System.out.println(isArmstrongNumber(153));
+        System.out.println(isArmstrongNumber(123));
     }
 }
