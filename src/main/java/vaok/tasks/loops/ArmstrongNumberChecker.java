@@ -3,7 +3,7 @@ package vaok.tasks.loops;
 public class ArmstrongNumberChecker {
     public static boolean isArmstrongNumber(int number) {
         if (number < 100 || number > 999) {
-            return false; // Число не является трёхзначным
+            return false;
         }
 
         int original = number;
