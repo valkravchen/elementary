@@ -10,7 +10,7 @@ public class FactorialCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateFactorial(5)); // Ожидаемый результат: 120
-        System.out.println(calculateFactorial(3)); // Ожидаемый результат: 6
+        System.out.println(calculateFactorial(5));
+        System.out.println(calculateFactorial(3));
     }
 }
