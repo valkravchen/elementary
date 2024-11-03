@@ -2,7 +2,7 @@ package ru.array;
 
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 class FindLoopTest {
     @Test
@@ -22,4 +22,41 @@ class FindLoopTest {
         int expected = -1;
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    void whenArrayHasDuplicatesThenReturnFirstIndex() {
+        int[] data = new int[]{3, 3, 3};
+        int element = 3;
+        int result = FindLoop.indexOf(data, element);
+        int expected = 0;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenArrayIsEmptyThenMinus1() {
+        int[] data = new int[]{};
+        int element = 1;
+        int result = FindLoop.indexOf(data, element);
+        int expected = -1;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenArrayHasOneElementAndItMatchesThenReturnIndex0() {
+        int[] data = new int[]{3};
+        int element = 3;
+        int result = FindLoop.indexOf(data, element);
+        int expected = 0;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenArrayHasOneElementAndItDoesNotMatchThenMinus1() {
+        int[] data = new int[]{3};
+        int element = 33;
+        int result = FindLoop.indexOf(data, element);
+        int expected = -1;
+        assertThat(result).isEqualTo(expected);
+    }
+
 }
