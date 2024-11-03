@@ -1,9 +1,9 @@
 package ru.array;
 
 public class FindLoop {
-    public static int indexOf(int[] data, int element) {
+    public static int indexOf(int[] data, int el) {
         for (int index = 0; index < data.length; index++) {
-            if (data[index] == element) {
+            if (data[index] == el) {
                 return index;
             }
         }
