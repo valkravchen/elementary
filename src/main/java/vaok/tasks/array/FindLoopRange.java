@@ -2,6 +2,9 @@ package vaok.tasks.array;
 
 public class FindLoopRange {
     public static int indexOfInRange(int[] data, int element, int start, int end) {
+        if (start < 0 || end >= data.length || start > end) {
+            return -1;
+        }
         for (int index = start; index <= end; index++) {
             if (data[index] == element) {
                 return index;
