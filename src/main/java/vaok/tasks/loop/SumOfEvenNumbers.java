@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class SumOfEvenNumbers {
     public static int sumEvenNumbers(int number) {

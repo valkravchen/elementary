@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class SumOfSquares {
     public static int calculateSumOfSquares(int number) {

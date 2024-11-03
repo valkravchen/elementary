@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class DivisorCounter {
     public static int countDivisors(int number) {

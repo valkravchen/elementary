@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class PowerCalculator {
     public static int calculatePower(int base, int exponent) {

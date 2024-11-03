@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class PerfectNumberChecker {
     public static boolean isPerfectNumber(int number) {

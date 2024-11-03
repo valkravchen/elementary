@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class DivisibleByThreeAndFive {
     public static void printDivisibleByThreeAndFive(int number) {

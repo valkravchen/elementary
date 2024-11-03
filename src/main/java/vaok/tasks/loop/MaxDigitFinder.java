@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class MaxDigitFinder {
     public static int findMaxDigit(int number) {

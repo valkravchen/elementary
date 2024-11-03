@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class MultiplesOfThree {
     public static void printMultiplesOfThree(int number) {

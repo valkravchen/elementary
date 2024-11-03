@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class FibonacciNumbers {
     public static void printFibonacciUpTo(int number) {

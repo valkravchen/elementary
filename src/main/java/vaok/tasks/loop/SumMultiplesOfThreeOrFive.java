@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class SumMultiplesOfThreeOrFive {
     public static void calculateSum(int number) {

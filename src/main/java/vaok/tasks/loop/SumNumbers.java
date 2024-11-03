@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class SumNumbers {
     public static void sumUpTo(int number) {

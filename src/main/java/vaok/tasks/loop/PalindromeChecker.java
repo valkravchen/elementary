@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class PalindromeChecker {
     public static boolean isPalindrome(int number) {

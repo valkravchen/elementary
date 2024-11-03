@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class ProductOfNumbers {
     public static long calculateProduct(int number) {

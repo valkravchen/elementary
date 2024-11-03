@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class ReverseEvenNumbers {
     public static void printEvenNumbersReverse(int number) {

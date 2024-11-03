@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class ArmstrongNumberChecker {
     public static boolean isArmstrongNumber(int number) {

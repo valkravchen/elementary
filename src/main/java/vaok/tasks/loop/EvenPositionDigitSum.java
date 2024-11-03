@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class EvenPositionDigitSum {
     public static int sumEvenPositionDigits(int number) {

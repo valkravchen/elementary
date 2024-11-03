@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class DigitSumCalculator {
     public static int calculateDigitSum(int number) {

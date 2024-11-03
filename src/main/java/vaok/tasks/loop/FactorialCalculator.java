@@ -1,4 +1,4 @@
-package vaok.tasks.loops;
+package vaok.tasks.loop;
 
 public class FactorialCalculator {
     public static int calculateFactorial(int number) {
