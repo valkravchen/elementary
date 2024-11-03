@@ -6,7 +6,7 @@ public class FindLoopRange {
             return -1;
         }
         for (int index = start; index <= end; index++) {
-            if (data[index] == element) {
+            if (data[index] > element) {
                 return index;
             }
         }
