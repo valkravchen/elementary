@@ -29,6 +29,18 @@ public class FindLoopRange {
         return Arrays.copyOf(indices, count);
     }
 
+    public static int lastIndexOf(int[] data, int element, int start, int end) {
+        if (start < 0 || end >= data.length || start > end) {
+            return -1;
+        }
+        for (int index = end; start <= index; index--) {
+            if (data[index] == element) {
+                return index;
+            }
+        }
+        return -1;
+    }
+
     public static void main(String[] args) {
         int[] data = {1, 3, 6, 8, 10};
         int element = 3;
@@ -36,6 +48,7 @@ public class FindLoopRange {
         int end = 4;
         System.out.println(indexOfInRange(data, element, start, end));
         System.out.println(Arrays.toString(indicesOfGreaterThan(data, element, start, end)));
+        System.out.println(lastIndexOf(data, element, start, end));
     }
 }
 
