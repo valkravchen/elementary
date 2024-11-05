@@ -25,8 +25,8 @@ public class PrimeSumCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculatePrimeSum(10)); // Ожидаемый результат: 17 (2 + 3 + 5 + 7)
-        System.out.println(calculatePrimeSum(20)); // Ожидаемый результат: 77
+        System.out.println(calculatePrimeSum(10));
+        System.out.println(calculatePrimeSum(20));
     }
 }
 
