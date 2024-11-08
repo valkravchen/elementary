@@ -2,7 +2,7 @@ package vaok.tasks.loop;
 
 public class DigitAverageCalculator {
     public static double calculateDigitAverage(int number) {
-        number = Math.abs(number); // Учитываем только положительные цифры
+        number = Math.abs(number);
         int sum = 0;
         int count = 0;
 
@@ -16,8 +16,8 @@ public class DigitAverageCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateDigitAverage(12345)); // Ожидаемый результат: 3.0
-        System.out.println(calculateDigitAverage(111));   // Ожидаемый результат: 1.0
+        System.out.println(calculateDigitAverage(12345));
+        System.out.println(calculateDigitAverage(111));
     }
 }
 
