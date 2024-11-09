@@ -21,7 +21,7 @@ public class SecondLargestDigitFinder {
     }
 
     public static void main(String[] args) {
-        System.out.println(findSecondLargestDigit(75368)); // Ожидаемый результат: 7
-        System.out.println(findSecondLargestDigit(22345)); // Ожидаемый результат: 4
+        System.out.println(findSecondLargestDigit(75368));
+        System.out.println(findSecondLargestDigit(22345));
     }
 }
