@@ -13,7 +13,7 @@ public class NearestMultipleOfTenFinder {
     }
 
     public static void main(String[] args) {
-        System.out.println(findNearestMultipleOfTen(23)); // Ожидаемый результат: 20
-        System.out.println(findNearestMultipleOfTen(27)); // Ожидаемый результат: 30
+        System.out.println(findNearestMultipleOfTen(23));
+        System.out.println(findNearestMultipleOfTen(27));
     }
 }
