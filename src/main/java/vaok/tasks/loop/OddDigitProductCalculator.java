@@ -2,7 +2,7 @@ package vaok.tasks.loop;
 
 public class OddDigitProductCalculator {
     public static int calculateOddDigitProduct(int number) {
-        number = Math.abs(number); // Учитываем только положительные цифры
+        number = Math.abs(number);
         int product = 1;
         boolean hasOddDigits = false;
 
@@ -15,12 +15,12 @@ public class OddDigitProductCalculator {
             number /= 10;
         }
 
-        return hasOddDigits ? product : 0; // Если нечётных цифр нет, возвращаем 0
+        return hasOddDigits ? product : 0;
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateOddDigitProduct(12345)); // Ожидаемый результат: 15
-        System.out.println(calculateOddDigitProduct(2468));  // Ожидаемый результат: 0
+        System.out.println(calculateOddDigitProduct(12345));
+        System.out.println(calculateOddDigitProduct(2468));
     }
 }
 
