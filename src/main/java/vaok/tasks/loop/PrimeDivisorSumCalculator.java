@@ -22,8 +22,8 @@ public class PrimeDivisorSumCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculatePrimeDivisorSum(60)); // Ожидаемый результат: 10
-        System.out.println(calculatePrimeDivisorSum(45)); // Ожидаемый результат: 8
+        System.out.println(calculatePrimeDivisorSum(60));
+        System.out.println(calculatePrimeDivisorSum(45));
     }
 }
 
