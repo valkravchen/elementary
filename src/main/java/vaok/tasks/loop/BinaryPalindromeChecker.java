@@ -18,7 +18,7 @@ public class BinaryPalindromeChecker {
     }
 
     public static void main(String[] args) {
-        System.out.println(isBinaryPalindrome(9));  // Ожидаемый результат: true
-        System.out.println(isBinaryPalindrome(10)); // Ожидаемый результат: false
+        System.out.println(isBinaryPalindrome(9));
+        System.out.println(isBinaryPalindrome(10));
     }
 }
