@@ -14,8 +14,8 @@ public class OddDivisorCounter {
     }
 
     public static void main(String[] args) {
-        System.out.println(countOddDivisors(12)); // Ожидаемый результат: 3
-        System.out.println(countOddDivisors(15)); // Ожидаемый результат: 4
+        System.out.println(countOddDivisors(12));
+        System.out.println(countOddDivisors(15));
     }
 }
 
