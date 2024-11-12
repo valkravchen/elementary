@@ -19,8 +19,8 @@ public class SmallestPrimeDivisorFinder {
     }
 
     public static void main(String[] args) {
-        System.out.println(findSmallestPrimeDivisor(15)); // Ожидаемый результат: 3
-        System.out.println(findSmallestPrimeDivisor(24)); // Ожидаемый результат: 2
+        System.out.println(findSmallestPrimeDivisor(15));
+        System.out.println(findSmallestPrimeDivisor(24));
     }
 }
 
