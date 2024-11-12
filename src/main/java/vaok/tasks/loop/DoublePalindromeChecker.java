@@ -20,7 +20,7 @@ public class DoublePalindromeChecker {
     }
 
     public static void main(String[] args) {
-        System.out.println(isDoublePalindrome(131)); // Ожидаемый результат: true
-        System.out.println(isDoublePalindrome(121)); // Ожидаемый результат: false
+        System.out.println(isDoublePalindrome(131));
+        System.out.println(isDoublePalindrome(121));
     }
 }
