@@ -16,8 +16,8 @@ public class EvenDigitChecker {
     }
 
     public static void main(String[] args) {
-        System.out.println(areAllDigitsEven(246));  // Ожидаемый результат: true
-        System.out.println(areAllDigitsEven(1234)); // Ожидаемый результат: false
+        System.out.println(areAllDigitsEven(246));
+        System.out.println(areAllDigitsEven(1234));
     }
 }
 
