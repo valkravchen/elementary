@@ -2,7 +2,7 @@ package vaok.tasks.loop;
 
 public class EvenDigitChecker {
     public static boolean areAllDigitsEven(int number) {
-        number = Math.abs(number); // Учитываем только положительные цифры
+        number = Math.abs(number);
 
         while (number > 0) {
             int digit = number % 10;
