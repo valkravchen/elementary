@@ -14,7 +14,7 @@ public class MultipleSumCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateMultipleSum(20, 3)); // Ожидаемый результат: 63
-        System.out.println(calculateMultipleSum(30, 5)); // Ожидаемый результат: 105
+        System.out.println(calculateMultipleSum(20, 3));
+        System.out.println(calculateMultipleSum(30, 5));
     }
 }
