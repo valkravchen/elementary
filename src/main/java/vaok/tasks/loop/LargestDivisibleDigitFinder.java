@@ -2,7 +2,7 @@ package vaok.tasks.loop;
 
 public class LargestDivisibleDigitFinder {
     public static int findLargestDivisibleDigit(int number, int divisor) {
-        number = Math.abs(number); // Учитываем только положительные цифры
+        number = Math.abs(number);
         int largestDigit = -1;
 
         while (number > 0) {
