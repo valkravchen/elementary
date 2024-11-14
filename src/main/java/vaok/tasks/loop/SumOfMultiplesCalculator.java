@@ -14,7 +14,7 @@ public class SumOfMultiplesCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateSumOfMultiples(20)); // Ожидаемый результат: 98
-        System.out.println(calculateSumOfMultiples(30)); // Ожидаемый результат: 238
+        System.out.println(calculateSumOfMultiples(20));
+        System.out.println(calculateSumOfMultiples(30));
     }
 }
