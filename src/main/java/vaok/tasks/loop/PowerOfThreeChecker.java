@@ -12,8 +12,8 @@ public class PowerOfThreeChecker {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPowerOfThree(27)); // Ожидаемый результат: true
-        System.out.println(isPowerOfThree(10)); // Ожидаемый результат: false
+        System.out.println(isPowerOfThree(27));
+        System.out.println(isPowerOfThree(10));
     }
 }
 
