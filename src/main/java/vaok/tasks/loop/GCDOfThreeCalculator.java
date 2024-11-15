@@ -16,7 +16,7 @@ public class GCDOfThreeCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(findGCD(18, 27, 45)); // Ожидаемый результат: 9
-        System.out.println(findGCD(8, 12, 16));  // Ожидаемый результат: 4
+        System.out.println(findGCD(18, 27, 45));
+        System.out.println(findGCD(8, 12, 16));
     }
 }
