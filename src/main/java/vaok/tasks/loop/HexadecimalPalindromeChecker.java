@@ -17,7 +17,7 @@ public class HexadecimalPalindromeChecker {
     }
 
     public static void main(String[] args) {
-        System.out.println(isHexPalindrome(121));  // Ожидаемый результат: true
-        System.out.println(isHexPalindrome(123));  // Ожидаемый результат: false
+        System.out.println(isHexPalindrome(121));
+        System.out.println(isHexPalindrome(123));
     }
 }
