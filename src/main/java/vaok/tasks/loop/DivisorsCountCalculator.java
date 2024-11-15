@@ -14,8 +14,8 @@ public class DivisorsCountCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(countDivisorsMultipleOf(60, 3)); // Ожидаемый результат: 3
-        System.out.println(countDivisorsMultipleOf(30, 2)); // Ожидаемый результат: 4
+        System.out.println(countDivisorsMultipleOf(60, 3));
+        System.out.println(countDivisorsMultipleOf(30, 2));
     }
 }
 
