@@ -25,7 +25,7 @@ public class PrimeDigitSumCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculatePrimeDigitSum(235)); // Ожидаемый результат: 10
-        System.out.println(calculatePrimeDigitSum(467)); // Ожидаемый результат: 11
+        System.out.println(calculatePrimeDigitSum(235));
+        System.out.println(calculatePrimeDigitSum(467));
     }
 }
