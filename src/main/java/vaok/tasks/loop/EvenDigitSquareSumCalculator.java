@@ -17,7 +17,7 @@ public class EvenDigitSquareSumCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateEvenDigitSquareSum(2468)); // Ожидаемый результат: 120
-        System.out.println(calculateEvenDigitSquareSum(1234)); // Ожидаемый результат: 20
+        System.out.println(calculateEvenDigitSquareSum(2468));
+        System.out.println(calculateEvenDigitSquareSum(1234));
     }
 }
