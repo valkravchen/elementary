@@ -15,7 +15,7 @@ public class MirrorNumberChecker {
     }
 
     public static void main(String[] args) {
-        System.out.println(isMirrorNumber(121));  // Ожидаемый результат: true
-        System.out.println(isMirrorNumber(123));  // Ожидаемый результат: false
+        System.out.println(isMirrorNumber(121));
+        System.out.println(isMirrorNumber(123));
     }
 }
