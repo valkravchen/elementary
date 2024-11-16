@@ -22,7 +22,7 @@ public class PrimeNumberCounter {
     }
 
     public static void main(String[] args) {
-        System.out.println(countPrimesInRange(10)); // Ожидаемый результат: 4
-        System.out.println(countPrimesInRange(20)); // Ожидаемый результат: 8
+        System.out.println(countPrimesInRange(10));
+        System.out.println(countPrimesInRange(20));
     }
 }
