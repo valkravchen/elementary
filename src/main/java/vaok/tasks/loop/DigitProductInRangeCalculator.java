@@ -15,12 +15,12 @@ public class DigitProductInRangeCalculator {
             number /= 10;
         }
 
-        return hasValidDigits ? product : 0; // Если цифр в диапазоне нет, возвращаем 0
+        return hasValidDigits ? product : 0;
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateDigitProductInRange(123456, 2, 5)); // Ожидаемый результат: 120
-        System.out.println(calculateDigitProductInRange(9876, 5, 9));   // Ожидаемый результат: 7 * 8 = 56
+        System.out.println(calculateDigitProductInRange(123456, 2, 5));
+        System.out.println(calculateDigitProductInRange(9876, 5, 9));
     }
 }
 
