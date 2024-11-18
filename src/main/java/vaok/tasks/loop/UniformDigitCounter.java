@@ -28,8 +28,8 @@ public class UniformDigitCounter {
     }
 
     public static void main(String[] args) {
-        System.out.println(countUniformDigitNumbers(new int[]{111, 22, 5555, 123})); // Ожидаемый результат: 3
-        System.out.println(countUniformDigitNumbers(new int[]{10, 11, 22, 33}));     // Ожидаемый результат: 2
+        System.out.println(countUniformDigitNumbers(new int[]{111, 22, 5555, 123}));
+        System.out.println(countUniformDigitNumbers(new int[]{10, 11, 22, 33}));
     }
 }
 
