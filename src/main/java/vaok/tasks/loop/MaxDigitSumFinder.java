@@ -29,8 +29,8 @@ public class MaxDigitSumFinder {
     }
 
     public static void main(String[] args) {
-        System.out.println(findMaxDigitSumNumber(new int[]{123, 456, 789})); // Ожидаемый результат: 789
-        System.out.println(findMaxDigitSumNumber(new int[]{101, 202, 303})); // Ожидаемый результат: 303
+        System.out.println(findMaxDigitSumNumber(new int[]{123, 456, 789}));
+        System.out.println(findMaxDigitSumNumber(new int[]{101, 202, 303}));
     }
 }
 
