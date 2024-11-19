@@ -17,8 +17,8 @@ public class SquareDigitCounter {
     }
 
     public static void main(String[] args) {
-        System.out.println(countSquareDigits(14916)); // Ожидаемый результат: 4
-        System.out.println(countSquareDigits(12345)); // Ожидаемый результат: 2
+        System.out.println(countSquareDigits(14916));
+        System.out.println(countSquareDigits(12345));
     }
 }
 
