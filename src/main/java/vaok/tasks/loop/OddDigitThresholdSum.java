@@ -17,7 +17,7 @@ public class OddDigitThresholdSum {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateOddDigitSumAboveThreshold(12345, 2)); // Ожидаемый результат: 8
-        System.out.println(calculateOddDigitSumAboveThreshold(98765, 4)); // Ожидаемый результат: 15
+        System.out.println(calculateOddDigitSumAboveThreshold(12345, 2));
+        System.out.println(calculateOddDigitSumAboveThreshold(98765, 4));
     }
 }
