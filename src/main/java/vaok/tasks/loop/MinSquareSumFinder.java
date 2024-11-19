@@ -30,8 +30,8 @@ public class MinSquareSumFinder {
     }
 
     public static void main(String[] args) {
-        System.out.println(findMinSquareSumNumber(new int[]{12, 23, 34})); // Ожидаемый результат: 12
-        System.out.println(findMinSquareSumNumber(new int[]{10, 20, 30})); // Ожидаемый результат: 10
+        System.out.println(findMinSquareSumNumber(new int[]{12, 23, 34}));
+        System.out.println(findMinSquareSumNumber(new int[]{10, 20, 30}));
     }
 }
 
