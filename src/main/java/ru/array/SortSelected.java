@@ -5,6 +5,7 @@ public class SortSelected {
         int[] array = new int[] {3, 5, 1, 2, 4};
         int start = 0;
         int finish = 4;
-        System.out.println(MinDiapason.findMin(array, start, finish));
+        int minElement = MinDiapason.findMin(array, start, finish);
+        System.out.println(minElement);
     }
 }
