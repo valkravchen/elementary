@@ -4,10 +4,9 @@ public class SortSelected {
     public static int[] sort(int[] data) {
         for (int index = 0; index < data.length - 1; index++) {
             int minElementIndex = MinDiapason.findMinElementIndex(data, index, data.length - 1);
-            if (minElementIndex == index) {
-                continue;
+            if (minElementIndex != index) {
+                SwitchArray.swap(data, index, minElementIndex);
             }
-            SwitchArray.swap(data, index, minElementIndex);
         }
         return data;
     }
