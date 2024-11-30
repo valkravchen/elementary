@@ -29,4 +29,12 @@ class SortSelectedTest {
         int[] expected = new int[]{3, 9, 9, 12, 15, 33};
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    public void whenSortTwoNumbers() {
+        int[] data = new int[]{33, 3};
+        int[] result = SortSelected.sort(data);
+        int[] expected = new int[]{3, 33};
+        assertThat(result).isEqualTo(expected);
+    }
 }
