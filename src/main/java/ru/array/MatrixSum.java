@@ -10,9 +10,4 @@ public class MatrixSum {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        int[][] array = {{8}, {6, 5, 5}, {93, 3}};
-        System.out.println(sum(array));
-    }
 }
