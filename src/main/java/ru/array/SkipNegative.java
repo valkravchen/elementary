@@ -10,9 +10,9 @@ public class SkipNegative {
                 }
             }
         }
-        for (int row = 0; row < array.length; row++) {
-            for (int cell = 0; cell < array[row].length; cell++) {
-                System.out.println(array[row][cell]);
+        for (int[] row : array) {
+            for (int value : row) {
+                System.out.println(value);
             }
         }
     }
