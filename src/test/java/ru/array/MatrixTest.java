@@ -1,7 +1,6 @@
 package ru.array;
 
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 class MatrixTest {
@@ -27,6 +26,18 @@ class MatrixTest {
                 {3, 6, 9, 12, 15},
                 {4, 8, 12, 16, 20},
                 {5, 10, 15, 20, 25}
+        };
+        assertThat(result).isDeepEqualTo(expected);
+    }
+
+    @Test
+    public void when3on3() {
+        int size = 3;
+        int[][] result = Matrix.multiple(size);
+        int[][] expected = {
+                {1, 2, 3},
+                {2, 4, 6},
+                {3, 6, 9}
         };
         assertThat(result).isDeepEqualTo(expected);
     }
