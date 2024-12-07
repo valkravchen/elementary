@@ -18,5 +18,26 @@ public class MatrixCheck {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        char[][] board = {
+                {'1', ' ', ' '},
+                {' ', '3', ' '},
+                {' ', ' ', '1'},
+        };
+     char[] result = extractDiagonal(board);
+        for (char element : result) {
+            System.out.println(element);
+        }
+    }
+
+    public static char[] extractDiagonal(char[][] board) {
+        char[] result = new char[board.length];
+        for (int index = 0; index < board.length; index++) {
+            result[index] = board[index][index];
+        }
+        return result;
+    }
 }
+
 
