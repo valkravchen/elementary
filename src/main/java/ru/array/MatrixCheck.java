@@ -8,14 +8,17 @@ public class MatrixCheck {
                 {' ', ' ', ' '},
         };
         int row = 1;
-        boolean result = true;
-        for (int column = 0; column < input[row].length; column++) {
-            if (input[row][column] != 'X') {
-                result = false;
-                break;
+    boolean result = monoHorizontal(input, row);
+        System.out.println(result);
+    }
+
+    public static boolean monoHorizontal(char[][] board, int row) {
+        for (int column = 0; column < board[row].length; column++) {
+            if (board[row][column] != 'X') {
+                return false;
             }
         }
-        System.out.println(result);
+        return true;
     }
 }
 
