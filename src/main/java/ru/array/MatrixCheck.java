@@ -1,16 +1,6 @@
 package ru.array;
 
 public class MatrixCheck {
-    public static void main(String[] args) {
-        char[][] input = {
-                {' ', ' ', ' '},
-                {'X', 'X', 'X'},
-                {' ', ' ', ' '},
-        };
-        int row = 1;
-    boolean result = monoHorizontal(input, row);
-        System.out.println(result);
-    }
 
     public static boolean monoHorizontal(char[][] board, int row) {
         for (int column = 0; column < board[row].length; column++) {
