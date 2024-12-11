@@ -10,17 +10,6 @@ public class MatrixCheck {
         return true;
     }
 
-    public static void main(String[] args) {
-        char[][] array = {
-                {' ', ' ', 'X'},
-                {' ', ' ', 'X'},
-                {' ', ' ', 'X'},
-        };
-      int column = 2;
-      boolean result = monoVertical(array, column);
-        System.out.println(result);
-    }
-
     public static boolean monoVertical(char[][] board, int column) {
         for (int row = 0; row < board.length; row++) {
             if (board[row][column] != 'X') {
