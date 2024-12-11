@@ -16,15 +16,18 @@ public class MatrixCheck {
                 {' ', ' ', 'X'},
                 {' ', ' ', 'X'},
         };
-        int column = 2;
-        boolean result = true;
-        for (int row = 0; row < array.length; row++) {
-            if (array[row][column] != 'X') {
-                result = false;
-                break;
+      int column = 2;
+      boolean result = monoVertical(array, column);
+        System.out.println(result);
+    }
+
+    public static boolean monoVertical(char[][] board, int column) {
+        for (int row = 0; row < board.length; row++) {
+            if (board[row][column] != 'X') {
+                return false;
             }
         }
-        System.out.println(result);
+        return true;
     }
 }
 
