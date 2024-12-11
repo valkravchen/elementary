@@ -9,5 +9,22 @@ public class MatrixCheck {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        char[][] array = {
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+        };
+        int column = 2;
+        boolean result = true;
+        for (int row = 0; row < array.length; row++) {
+            if (array[row][column] != 'X') {
+                result = false;
+                break;
+            }
+        }
+        System.out.println(result);
+    }
 }
 
