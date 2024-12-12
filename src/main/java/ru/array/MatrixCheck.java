@@ -25,11 +25,16 @@ public class MatrixCheck {
                 {' ', 'X', ' '},
                 {' ', ' ', 'X'},
         };
-        char[] result = new char[array.length];
-        for (int index = 0; index < array.length; index++) {
-            result[index] = array[index][index];
-        }
+      char[] result = extractDiagonal(array);
         System.out.println(result);
+    }
+
+    public static char[] extractDiagonal(char[][] board) {
+        char[] result = new char[board.length];
+        for (int index = 0; index < board.length; index++) {
+            result[index] = board[index][index];
+        }
+        return result;
     }
 }
 
