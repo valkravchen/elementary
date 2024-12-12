@@ -20,14 +20,14 @@ public class MatrixCheck {
     }
 
     public static void main(String[] args) {
-        char[][] arrray = {
+        char[][] array = {
                 {'X', ' ', ' '},
                 {' ', 'X', ' '},
                 {' ', ' ', 'X'},
         };
-        char[] result = new char[arrray.length];
-        for (int index = 0; index < arrray.length; index++) {
-            result[index] = arrray[index][index];
+        char[] result = new char[array.length];
+        for (int index = 0; index < array.length; index++) {
+            result[index] = array[index][index];
         }
         System.out.println(result);
     }
