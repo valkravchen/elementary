@@ -26,6 +26,11 @@ public class MatrixCheck {
                 {' ', ' ', 'X'},
         };
         char[] result = new char[arrray.length];
+        for (int index = 0; index < arrray.length; index++) {
+            result[index] = arrray[index][index];
+        }
+        System.out.println(result);
     }
+
 }
 
