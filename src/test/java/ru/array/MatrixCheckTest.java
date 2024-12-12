@@ -1,7 +1,6 @@
 package ru.array;
 
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class MatrixCheckTest {
@@ -28,9 +27,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, row);
         assertThat(result).isFalse();
     }
-}
 
-/*
     @Test
     public void whenHasMonoVertical() {
         char[][] input = {
@@ -54,7 +51,8 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, column);
         assertThat(result).isFalse();
     }
-
+}
+/*
     @Test
     public void whenDiagonalFullX() {
         char[][] input = {

@@ -18,5 +18,14 @@ public class MatrixCheck {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        char[][] arrray = {
+                {'X', ' ', ' '},
+                {' ', 'X', ' '},
+                {' ', ' ', 'X'},
+        };
+        char[] result = new char[arrray.length];
+    }
 }
 
