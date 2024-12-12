@@ -31,6 +31,5 @@ public class MatrixCheck {
         }
         System.out.println(result);
     }
-
 }
 
