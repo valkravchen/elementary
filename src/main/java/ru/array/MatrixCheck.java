@@ -26,5 +26,24 @@ public class MatrixCheck {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        char[][] array = {
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+        };
+        boolean result = false;
+        for (int index = 0; index < array.length; index++) {
+            if (monoHorizontal(array, index) || monoVertical(array, index)) {
+                result = true;
+                break;
+            }
+        }
+        System.out.println(result);
+    }
 }
+
 
