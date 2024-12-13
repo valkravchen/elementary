@@ -29,16 +29,16 @@ public class MatrixCheck {
 
     public static void main(String[] args) {
         char[][] array = {
-                {'X', 'X', 'X', 'X', 'X'},
-                {' ', ' ', ' ', ' ', ' '},
-                {' ', ' ', ' ', ' ', ' '},
-                {' ', ' ', ' ', ' ', ' '},
-                {' ', ' ', ' ', ' ', ' '},
+                {'1', '2', '3', '4', 'X'},
+                {'5', '6', '7', '8', 'X'},
+                {'9', '1', '2', '3', 'X'},
+                {'4', '5', '6', '7', 'X'},
+                {'8', '9', '1', '2', 'X'},
         };
         boolean result = false;
         for (int index = 0; index < array.length; index++) {
-            if (monoHorizontal(array, index) || monoVertical(array, index)) {
-                result = true;
+            if (array[index][index] == 'X') {
+                result = monoHorizontal(array, index) || monoVertical(array, index);
                 break;
             }
         }
