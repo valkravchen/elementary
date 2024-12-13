@@ -27,18 +27,6 @@ public class MatrixCheck {
         return result;
     }
 
-    public static void main(String[] args) {
-        char[][] array = {
-                {'1', '2', '3', '4', 'X'},
-                {'5', '6', '7', '8', 'X'},
-                {'9', '1', '2', '3', 'X'},
-                {'4', '5', '6', '7', 'X'},
-                {'8', '9', '1', '2', 'X'},
-        };
-        boolean result = isWin(array);
-        System.out.println(result);
-    }
-
     public static boolean isWin(char[][] board) {
         boolean result = false;
         for (int index = 0; index < board.length; index++) {
