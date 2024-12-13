@@ -35,14 +35,19 @@ public class MatrixCheck {
                 {'4', '5', '6', '7', 'X'},
                 {'8', '9', '1', '2', 'X'},
         };
+        boolean result = isWin(array);
+        System.out.println(result);
+    }
+
+    public static boolean isWin(char[][] board) {
         boolean result = false;
-        for (int index = 0; index < array.length; index++) {
-            if (array[index][index] == 'X') {
-                result = monoHorizontal(array, index) || monoVertical(array, index);
+        for (int index = 0; index < board.length; index++) {
+            if (board[index][index] == 'X') {
+                result = monoHorizontal(board, index) || monoVertical(board, index);
                 break;
             }
         }
-        System.out.println(result);
+        return result;
     }
 }
 
