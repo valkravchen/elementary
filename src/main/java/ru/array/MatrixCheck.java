@@ -7,6 +7,7 @@ public class MatrixCheck {
                 return false;
             }
         }
+
         return true;
     }
 
