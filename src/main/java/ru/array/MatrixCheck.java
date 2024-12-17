@@ -44,7 +44,7 @@ public class MatrixCheck {
                 {' ', ' ', ' ', ' ', ' '},
                 {' ', ' ', ' ', ' ', ' '},
                 {' ', ' ', ' ', ' ', ' '},
-                {'X', 'X', 'X', 'X', 'X'},
+                {'X', 'X', ' ', 'X', 'X'},
         };
         boolean result = isWin(array);
         System.out.println(result);
