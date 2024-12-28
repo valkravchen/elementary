@@ -43,7 +43,7 @@ public class MatrixCheck {
 
     public static void main(String[] args) {
         char[][] array = {
-                {' ', 'v', ' ', ' ', 'X'},
+                {' ', ' ', ' ', ' ', 'X'},
                 {' ', ' ', ' ', ' ', 'X'},
                 {' ', ' ', ' ', ' ', 'X'},
                 {' ', ' ', ' ', ' ', 'X'},
