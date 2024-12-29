@@ -40,18 +40,6 @@ public class MatrixCheck {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        char[][] array = {
-                {' ', ' ', ' ', ' ', 'X'},
-                {' ', ' ', ' ', ' ', 'X'},
-                {' ', ' ', ' ', ' ', 'X'},
-                {' ', ' ', ' ', ' ', 'X'},
-                {'X', 'X', ' ', ' ', 'X'},
-        };
-        boolean result = isWin(array);
-        System.out.println(result);
-    }
 }
 
 
