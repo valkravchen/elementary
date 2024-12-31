@@ -8,6 +8,7 @@ public class Compress {
                     if (array[j] != 0) {
                         array[i] = array[j];
                         array[j] = 0;
+                        break;
                     }
                 }
             }
