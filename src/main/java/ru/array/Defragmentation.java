@@ -1,6 +1,7 @@
 package ru.array;
 
 public class Defragmentation {
+
     public static int[] compress(int[] array) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == 0) {
