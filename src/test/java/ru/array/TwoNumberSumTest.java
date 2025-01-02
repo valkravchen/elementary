@@ -16,7 +16,7 @@ class TwoNumberSumTest {
 
     @Test
     void whenTwoEqualsNumbersNoTarget() {
-        int[] array = {5, 5};
+        int[] array = {5,5};
         int target = 12;
         int[] result = TwoNumberSum.getIndexes(array, target);
         int[] expected = {};
