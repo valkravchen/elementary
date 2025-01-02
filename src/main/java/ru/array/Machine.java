@@ -20,13 +20,4 @@ public class Machine {
         }
         return Arrays.copyOf(result, size);
     }
-
-    public static void main(String[] args) {
-        int money = 50;
-        int price = 32;
-        int[] result = Machine.change(money, price);
-        for (int element : result) {
-            System.out.println(element);
-        }
-    }
 }
