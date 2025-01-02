@@ -1,6 +1,7 @@
 package ru.array;
 
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.Assertions.*;
 
 class TwoNumberSumTest {
@@ -38,6 +39,15 @@ class TwoNumberSumTest {
         int target = 15;
         int[] result = TwoNumberSum.getIndexes(array, target);
         int[] expected = {2, 4};
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenNoPairFound() {
+        int[] array = {1, 2, 3};
+        int target = 10;
+        int[] result = TwoNumberSum.getIndexes(array, target);
+        int[] expected = {};
         assertThat(result).isEqualTo(expected);
     }
 }
