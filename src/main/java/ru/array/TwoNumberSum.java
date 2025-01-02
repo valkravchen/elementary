@@ -11,15 +11,6 @@ public class TwoNumberSum {
         }
         return new int[0];
     }
-
-    public static void main(String[] args) {
-        int[] array = {-7, -5, 0, 5, 8, 12};
-        int target = -2;
-        int[] result = TwoNumberSum.getIndexes(array, target);
-        for (int element : result) {
-            System.out.println(element);
-        }
-    }
 }
 
 
