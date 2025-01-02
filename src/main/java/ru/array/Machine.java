@@ -5,24 +5,28 @@ import java.util.Arrays;
 public class Machine {
     public static int[] change(int money, int price) {
         int[] coins = {10, 5, 2, 1};
-        int x = money - price;
         int[] result = new int[100];
+        int change = money - price;
+        int i = 0;
         int size = 0;
-        while (x != 0) {
-            result[size] = coins[size];
-            x -= coins[size];
-            size++;
+        while (change > 0) {
+            if (change < coins[i]) {
+                i++;
+            } else {
+                result[size] = coins[i];
+                change -= coins[i];
+                size++;
+            }
         }
         return Arrays.copyOf(result, size);
     }
 
     public static void main(String[] args) {
         int money = 50;
-        int price = 35;
+        int price = 32;
         int[] result = Machine.change(money, price);
         for (int element : result) {
             System.out.println(element);
         }
     }
 }
-
