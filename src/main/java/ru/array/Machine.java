@@ -6,15 +6,12 @@ public class Machine {
     public static int[] change(int money, int price) {
         int[] coins = {10, 5, 2, 1};
         int[] result = new int[100];
-        int change = money - price;
-        int i = 0;
+        int remainingChange = money - price;
         int size = 0;
-        while (change > 0) {
-            if (change < coins[i]) {
-                i++;
-            } else {
-                result[size] = coins[i];
-                change -= coins[i];
+        for (int coin : coins) {
+            while (remainingChange >= coin) {
+                result[size] = coin;
+                remainingChange -= coin;
                 size++;
             }
         }
