@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
 class TwoNumberSumTest {
-
     @Test
     void whenTwoEqualsNumbersYesTarget() {
         int[] array = {5, 5};
