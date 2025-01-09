@@ -1,15 +1,6 @@
 package javabasics.syntax;
 
 public class JavaBasicsSyntax {
-    public static void main(String[] args) {
-        int[] array = {1, 2, 3};
-        int number = 3;
-        int[] newArray = removeElement(array, number);
-        for (int element : newArray) {
-            System.out.println(element);
-        }
-    }
-
     public static void iterateArray(int[] array) {
         for (int element : array) {
             System.out.println(element);
@@ -35,5 +26,6 @@ public class JavaBasicsSyntax {
         return newArray;
     }
 }
+
 
 
