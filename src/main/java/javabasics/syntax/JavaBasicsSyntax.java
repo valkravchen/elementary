@@ -2,8 +2,8 @@ package javabasics.syntax;
 
 public class JavaBasicsSyntax {
     public static void iterateArray(int[] array) {
-        for (int el : array) {
-            System.out.println(el);
+        for (int element : array) {
+            System.out.println(element);
         }
     }
 
