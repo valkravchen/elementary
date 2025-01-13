@@ -8,9 +8,9 @@ public class JavaBasicsSyntax {
     }
 
     public static int findElement(int[] array, int target) {
-        for (int elemen : array) {
-            if (elemen == target) {
-                return elemen;
+        for (int element : array) {
+            if (element == target) {
+                return element;
             }
         }
         return -1;
