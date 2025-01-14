@@ -1,30 +1,17 @@
 package javabasics.syntax;
 
 public class JavaBasicsSyntax {
-    public static void iterateArray(int[] array) {
-        for (int element : array) {
-            System.out.println(element);
-        }
+    public void showPrimitiveTypes() {
+        byte byteNumber = 3;
+        short shortNumber = 3;
+        int intNumber = 3;
+        long longNumber = 3;
+        float floatNumber = 3.33f;
+        double doubleNumber = 3.33;
+        char charSymbol = '3';
+        boolean iLoveJava = true;
     }
 
-    public static int findElement(int[] array, int target) {
-        for (int element : array) {
-            if (element == target) {
-                return element;
-            }
-        }
-        return -1;
-    }
-
-    public static int[] removeElement(int[] array, int delElement) {
-        int[] newArray = new int[array.length - 1];
-        for (int index = 0; index < array.length; index++) {
-            if (array[index] != delElement) {
-                newArray[index] = array[index];
-            }
-        }
-        return newArray;
-    }
 }
 
 
