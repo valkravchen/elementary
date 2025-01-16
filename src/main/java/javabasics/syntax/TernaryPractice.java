@@ -14,13 +14,13 @@ public class TernaryPractice {
     }
 
     public static void checkStringLength(String input) {
-        String result = (input.length() > 5) ? "Длина строки больше 5 символов." : "Длина строки меньше или равна 5 символам.";
+        String result = (input.length() >= 5) ? "Длина строки больше или равна 5 символам." : "Длина строки меньше 5 символов.";
         System.out.println(result);
     }
 
     public static void main(String[] args) {
         checkNumberSign(0);
         checkEvenOdd(0);
-        checkStringLength("Код.");
+        checkStringLength("Код на Java.");
     }
 }
