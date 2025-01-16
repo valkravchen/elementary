@@ -2,7 +2,7 @@ package javabasics.syntax;
 
 public class CyclesPractice {
     public static void printNumbers() {
-        for (int number = 1; number < 11; number++) {
+        for (int number = 1; number <= 10; number++) {
             System.out.println(number);
         }
     }
@@ -10,7 +10,7 @@ public class CyclesPractice {
     public static void sumNumbers() {
         int sum = 0;
         int number = 1;
-        while (number < 21) {
+        while (number <= 20) {
             sum += number;
             number++;
         }
