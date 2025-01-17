@@ -13,8 +13,17 @@ public class ForPractice {
         }
     }
 
+    public static void calculateArraySum(int[] numbers) {
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
+        }
+        System.out.println(sum);
+    }
+
     public static void main(String[] args) {
         printReverse();
         printEvenNumbers();
+        calculateArraySum(new int[]{1, 3, 14});
     }
 }
