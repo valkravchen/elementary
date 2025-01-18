@@ -21,9 +21,13 @@ public class ForPractice {
         System.out.println(sum);
     }
 
+    public static void printStrings(String[] strings) {
+        for (String string: strings) {
+            System.out.println(string);
+        }
+    }
+
     public static void main(String[] args) {
-        printReverse();
-        printEvenNumbers();
-        calculateArraySum(new int[]{1, 3, 14});
+        printStrings(new String[]{"Alice", "Bob", "Charlie"});
     }
 }
