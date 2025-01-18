@@ -60,8 +60,19 @@ public class ForPractice {
         } while (number <= 50);
     }
 
+    public static void calculateSumDoWhile() {
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int sum = 0;
+        int index = 0;
+        do {
+            sum += array[index];
+            index++;
+        } while (index < array.length);
+        System.out.println(sum);
+    }
+
     public static void main(String[] args) {
-        printEvenNumbersDoWhile();
+        calculateSumDoWhile();
     }
 }
 
