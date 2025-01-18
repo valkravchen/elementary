@@ -45,7 +45,7 @@ public class ForPractice {
     public static void printUntilNegative(int[] numbers) {
         int index = 0;
         while (index < numbers.length) {
-            if (numbers[index] > 0) {
+            if (numbers[index] >= 0) {
                 System.out.println(numbers[index]);
                 index++;
             } else {
