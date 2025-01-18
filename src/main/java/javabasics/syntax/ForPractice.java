@@ -1,5 +1,7 @@
 package javabasics.syntax;
 
+import java.util.Arrays;
+
 public class ForPractice {
     public static void printReverse() {
         for (int number = 50; number >= 1; number--) {
@@ -14,7 +16,7 @@ public class ForPractice {
     }
 
     public static void printStrings(String[] strings) {
-        for (String string: strings) {
+        for (String string : strings) {
             System.out.println(string);
         }
     }
@@ -40,8 +42,19 @@ public class ForPractice {
         }
     }
 
-    public static void main(String[] args) {
-        printGreaterThanTen(new double[]{5.5, 5.7, 33.33});
+    public static void printUntilNegative(int[] numbers) {
+        int index = 0;
+        while (index < numbers.length) {
+            if (numbers[index] > 0) {
+                System.out.println(numbers[index]);
+                index++;
+            } else {
+                break;
+            }
+        }
+    }
 
+    public static void main(String[] args) {
+        printUntilNegative(new int[]{5, 10, -3, 20});
     }
 }
