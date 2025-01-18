@@ -41,7 +41,7 @@ public class ForPractice {
     }
 
     public static void main(String[] args) {
-        printGreaterThanTen(new double[]{5.5, 9.8});
+        printGreaterThanTen(new double[]{5.5, 12.3, 9.8, 15.7});
 
     }
 }
