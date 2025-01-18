@@ -55,6 +55,11 @@ public class ForPractice {
     }
 
     public static void main(String[] args) {
-        printUntilNegative(new int[]{5, 10, -3, 20});
+        int counter = 10;
+        while (counter > 0) {
+            counter--;
+            System.out.println(counter);
+            if (counter == 5) break;
+        }
     }
 }
