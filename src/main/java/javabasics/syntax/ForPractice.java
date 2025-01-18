@@ -55,11 +55,11 @@ public class ForPractice {
     }
 
     public static void main(String[] args) {
-        int counter = 10;
-        while (counter > 0) {
-            counter--;
+        int counter = 0;
+        do {
             System.out.println(counter);
-            if (counter == 5) break;
-        }
+            counter--;
+        } while (counter > -5);
     }
 }
+
