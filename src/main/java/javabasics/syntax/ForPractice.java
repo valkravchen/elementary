@@ -1,7 +1,5 @@
 package javabasics.syntax;
 
-import java.util.Arrays;
-
 public class ForPractice {
     public static void printReverse() {
         for (int number = 50; number >= 1; number--) {
