@@ -13,7 +13,13 @@ public class ForPractice {
         }
     }
 
-    public static void calculateArraySum(int[] numbers) {
+    public static void printStrings(String[] strings) {
+        for (String string: strings) {
+            System.out.println(string);
+        }
+    }
+
+    public static void sumNumbers(int[] numbers) {
         int sum = 0;
         for (int number : numbers) {
             sum += number;
@@ -21,13 +27,21 @@ public class ForPractice {
         System.out.println(sum);
     }
 
-    public static void printStrings(String[] strings) {
-        for (String string: strings) {
-            System.out.println(string);
+    public static void printGreaterThanTen(double[] numbers) {
+        int count = 0;
+        for (double number : numbers) {
+            if (number > 10) {
+                System.out.println(number);
+                count++;
+            }
+        }
+        if (count == 0) {
+            System.out.println("Нет чисел больше 10.");
         }
     }
 
     public static void main(String[] args) {
-        printStrings(new String[]{"Alice", "Bob", "Charlie"});
+        printGreaterThanTen(new double[]{5.5, 9.8});
+
     }
 }
