@@ -71,8 +71,21 @@ public class ForPractice {
         System.out.println(sum);
     }
 
+    public static void printUntilNegativeDoWhile() {
+        int[] array = {1, -1, 3, 4, 5, 6, 7, 8, 9, 10};
+        int index = 0;
+        do {
+            if (array[index] > 0) {
+                System.out.println(array[index]);
+            } else {
+                break;
+            }
+            index++;
+        } while (index < array.length);
+    }
+
     public static void main(String[] args) {
-        calculateSumDoWhile();
+        printUntilNegativeDoWhile();
     }
 }
 
