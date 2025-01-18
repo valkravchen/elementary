@@ -54,12 +54,16 @@ public class ForPractice {
         }
     }
 
-    public static void main(String[] args) {
-        int counter = 0;
+    public static void printEvenNumbersDoWhile() {
+        int number = 2;
         do {
-            System.out.println(counter);
-            counter--;
-        } while (counter > -5);
+            System.out.println(number);
+            number += 2;
+        } while (number <= 50);
+    }
+
+    public static void main(String[] args) {
+        printEvenNumbersDoWhile();
     }
 }
 
