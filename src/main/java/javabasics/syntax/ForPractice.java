@@ -28,20 +28,20 @@ public class ForPractice {
     }
 
     public static void printGreaterThanTen(double[] numbers) {
-        int count = 0;
+        boolean hasNumbers = false;
         for (double number : numbers) {
             if (number > 10) {
                 System.out.println(number);
-                count++;
+                hasNumbers = true;
             }
         }
-        if (count == 0) {
+        if (!hasNumbers) {
             System.out.println("Нет чисел больше 10.");
         }
     }
 
     public static void main(String[] args) {
-        printGreaterThanTen(new double[]{5.5, 12.3, 9.8, 15.7});
+        printGreaterThanTen(new double[]{5.5, 5.7, 33.33});
 
     }
 }
