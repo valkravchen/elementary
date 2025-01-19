@@ -84,8 +84,21 @@ public class ForPractice {
         } while (index < array.length);
     }
 
+    public static void initializeAndPrintArray() {
+        int[] array = new int[5];
+        array[0] = 3;
+        array[1] = 33;
+        array[2] = 4;
+        array[3] = 5;
+        array[4] = 244;
+
+        for (int number : array) {
+            System.out.println(number);
+        }
+    }
+
     public static void main(String[] args) {
-        printUntilNegativeDoWhile();
+        initializeAndPrintArray();
     }
 }
 
