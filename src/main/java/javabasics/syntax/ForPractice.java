@@ -98,7 +98,12 @@ public class ForPractice {
     }
 
     public static void main(String[] args) {
-        initializeAndPrintArray();
+        int[] array = {5, 10, 15, 20, 25};
+        array[2] = 100;
+        for (int number : array) {
+            System.out.println(number);
+        }
+
     }
 }
 
