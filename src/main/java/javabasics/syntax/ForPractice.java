@@ -98,10 +98,11 @@ public class ForPractice {
     }
 
     public static void main(String[] args) {
-        int[] array = {5, 10, 15, 20, 25};
-        array[2] = 100;
-        for (int number : array) {
-            System.out.println(number);
+        int[] array = {10, 20, 30, 40};
+        int index = 0;
+        while (index < array.length) {
+            System.out.println("Элемент по индексу " + index + " равен " + array[index]);
+            index++;
         }
 
     }
