@@ -100,10 +100,10 @@ public class ForPractice {
     public static void main(String[] args) {
         int[] array = {10, 20, 30, 40};
         int index = 0;
-        while (index < array.length) {
-            System.out.println("Элемент по индексу " + index + " равен " + array[index]);
-            index++;
-        }
+       do {
+           System.out.println("Элемент по индексу " + index + " равен " + array[index]);
+           index++;
+        } while (index < array.length);
 
     }
 }
