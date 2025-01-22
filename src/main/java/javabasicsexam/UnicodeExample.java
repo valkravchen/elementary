@@ -2,7 +2,6 @@ package javabasicsexam;
 
 public class UnicodeExample {
     public static void main(String[] args) {
-        // Символы Unicode
         char letterA = 'A';          // Латинская буква A
         char digit1 = '1';           // Цифра 1
         char hanChar = '\u6F22';     // Китайский иероглиф 漢
