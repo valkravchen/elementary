@@ -14,10 +14,12 @@ public class LinearSearchWhile {
             }
             i++;
         }
+
         if (index != -1) {
             System.out.println("Элемент найден на позиции: " + index);
         } else {
             System.out.println("Элемент не найден.");
         }
     }
+
 }
