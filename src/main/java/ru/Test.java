@@ -1,9 +1,12 @@
 package ru;
 
 public class Test {
-    static int x;
 
     public static void main(String[] args) {
-        System.out.println(x);
+        char x = '3';
+        int v = 33;
+        int numericValueOfX = (int) x;
+
+        System.out.println(numericValueOfX);
     }
 }
