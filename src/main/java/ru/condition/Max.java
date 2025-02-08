@@ -12,10 +12,5 @@ public class Max {
     public static int max(int firstNumber, int secondNumber, int thirdNumber, int fourthNumber) {
         return max(max(firstNumber, secondNumber), max(thirdNumber, fourthNumber));
     }
-
-    public static void main(String[] args) {
-        int result = max(9, 19, 8, 99);
-        System.out.println(result);
-    }
 }
 
